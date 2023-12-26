@@ -15,7 +15,7 @@ public class Booking {
         System.out.println("Enter the Date:(dd-mm-yyyy)");
         String dateInput = sc.next();
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
-        
+        //hk
         try {
             date = dateFormat.parse(dateInput);
         } catch (ParseException e) {
